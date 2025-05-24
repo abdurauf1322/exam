@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/* allura */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  min-width: 1440px; 
+  width: 100%;
+  height: 1942px;
+  margin: auto;
+}
+header{
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 82px;
+}
+header .imgs{
+  width: 0;
+  height: 0;
+}
+header img{
+  width: 141px;
+  height: 40px;
+}
+header nav ul{
+  display: flex;
+  gap: 55px;
+  margin-left: 840px;
+}
+header nav ul li a{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+  color: #181C29;
+}
+header nav ul li a:hover{
+  padding: 5px 10px;
+  background-color: #ff464655;
+  border-radius: 12px;
+  border: none;
+  color: #FF4646;
+}
+.container{
+  width: 100%;
+  height: 1394px;
+  background-image: url(./img/1317eca884b2693f8ce452278c7fce31948168a8.png);
+  background-color: #FF4646;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  border-radius: 20px;
+}
+.container_text{
+  text-align: center;
+}
+.container_text h1{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: 5px;
+  color: #fff;
+  width: 400px;
+  padding-bottom: 20px;
+}
+.container_text ul{
+  display: flex;
+  gap: 38px;
+}
+.container_text ul li a{
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.container_text ul li a:hover{
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ffffff31;
+}
+.christmas_cards{
+  display: flex;
+  gap: 22px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding-left: 97px;
+}
+.christmas_card{
+  width: 310px;
+  height: 342px;
+  background-color: #ECF3F8;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+.christmas_card h5{
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  color: #4361FF;
+}
+.christmas_card h1{
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 8%;
+  color: #181C29;
+  padding-left: 20px;
+  line-height: 152%;
+}
+footer{
+  width: 100%;
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.footer_cards{
+  display: flex;
+  padding-top: 60px;
+  gap: 12px;
+}
+.footer_cards .footer_card{
+  width: 417px;
+  height: 204px;
+  background-color: #ECF3F8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.footer_card h1{
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #181C29;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.footer_card h2{
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #181C29;
+}
+.footer_icons{
+  padding-top: 60px;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 12px;
+}
+.footer_icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_icon i{
+  font-size: 24px;
+}
+footer h3{
+  font-weight: 400;
+  font-size: 16px;
+  color: #181C29;
+  padding-bottom: 12px;
+}
+footer h4{
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+@media (max-width:768px){
+  body{
+    min-width: 768px;
+    width: 100%;
+    height: 3528px;
+    margin: auto;
+  }
+  header{
+    padding: 20px;
+  }
+  header nav{
+    display: none !important;
+  }
+  header .imgs{
+    width: 40px;
+    height: 40px;
+  }
+  .container{
+    width: 100%;
+    height: 2494px;
+  }
+  .christmas_cards{
+    padding-left: 65px;
+  }
+  .footer_cards{
+    flex-direction: column;
+  }
+  .footer_cards .footer_card{
+    width: 752px;
+    height: 204px;
+  }
+  footer .footer_icons{
+    padding-top: 100px;
+  }
+}
+@media (max-width:380px){
+  body{
+    min-width: 380px;
+    width: 100%;
+    height: 5788px;
+    margin: auto;
+  }
+  header{
+    padding: 10px;
+  }
+  .container{
+     width: 100%;
+     height: 4756px;
+  }
+  .christmas_cards{
+    padding-left: 37px;
+  }
+  .container_text h1{
+    width: 350px;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .container_text ul{
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .footer_cards .footer_card{
+    width: 364px;
+    height: 204px;
+  }
+}
+
